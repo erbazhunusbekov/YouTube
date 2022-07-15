@@ -1,0 +1,19 @@
+.side {
+  flex-grow: 1;
+  padding: 20px 50px;
+  background-color: #202020;
+}
+
+.item {
+  border: 1px solid #323232;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 21px;
+  height: 40px;
+  margin: 20px 0;
+  color: #fff;
+}
+.item:first-child {
+  margin: 0;
+}

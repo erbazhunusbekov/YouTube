@@ -1,0 +1,8 @@
+.body {
+  background-color: #121212 !important;
+  height: 100%;
+}
+.main {
+  display: flex;
+}
+

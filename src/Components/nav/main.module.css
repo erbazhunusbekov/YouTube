@@ -1,0 +1,78 @@
+nav {
+  height: 60px;
+  background-color: #202020;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #f4f4f4;
+}
+.imgLogo {
+  width: 37px;
+  margin-right: 5px;
+  height: 37px;
+}
+.ss {
+  padding: 0 25px;
+}
+.navUser {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+.navUser span {
+  font-size: 20px;
+}
+.aUser {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+.imgUser {
+  width: 30px;
+  height: 30px;
+}
+.navSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchInp {
+  height: 30px;
+  width: 480px;
+  border: 1px solid #323232;
+  background-color: #121212;
+  font-size: 17px;
+  padding: 5px;
+  outline: none;
+  color: #f4f4f4;
+}
+.searchBtn {
+  background-color: #323232;
+  border: none;
+  width: 70px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: .3s;
+}
+.searchBtn:hover {
+  background-color: #282828;
+}
+
+.searchBtn img {
+  width: 13px;
+  background-size: contain;
+  height: 13px;
+}
